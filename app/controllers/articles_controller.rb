@@ -40,6 +40,7 @@ class ArticlesController < ApplicationController
     @article.destroy
 
     redirect_to root_path, status: :see_other
+  end
 
   private
     def article_params
